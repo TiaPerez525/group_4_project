@@ -1,0 +1,675 @@
+.changingIntroductionTextWrapper {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.changingIntroductionTextWrapper_background-color {
+    background-color: black;
+}
+
+.leftChangingIntroductionButton {
+    border: none;
+    font-size: medium;
+}
+
+.leftChangingIntroductionButton:hover {
+    cursor: pointer;
+}
+
+.leftChangingIntroductionButton_color {
+    color: white;
+}
+
+.rightChangingIntroductionButton {
+    
+}
+
+.changingIntroductionText {
+    color: white;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.mobile_openHeaderNavLinkMenuButton {
+    background-color: white;
+    border: none;
+    display: none;
+}
+
+.mobile_openHeaderNavLinkMenuButtonImage {
+
+}
+
+.mobile_openHeaderNavLinkMenuButtonImage:hover {
+    cursor: pointer;
+}
+
+.logoImage {
+
+}
+
+.logoImage:hover {
+    cursor: pointer;
+}
+
+.headerNav {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+}
+
+.headerNavLink {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: auto;
+    transition: 0.25s;
+}
+
+.headerNavLink:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.headerNavLinkText {
+    font-size: large;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 110px;
+    text-align: center;
+}
+
+.headerNavLinkHighlightBar {
+    background-color: white;
+    height: 3px;
+    transition: 0.25s;
+}
+
+.headerUserNavFlexWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.headerSearchButton {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+    width: 35px;
+}
+
+.headerSearchButton:hover {
+    cursor: pointer;
+}
+
+.headerSearchButtonIcon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerSearchButtonText {
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+}
+
+.mobile_headerSearchButton {
+    background-color: white;
+    border: none;
+    display: none;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: auto;
+    width: 35px;
+}
+
+.mobile_headerSearchButton:hover {
+    cursor: pointer;
+}
+
+.mobile_headerSearchBarImage {}
+
+.headerAccountButton {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-top: auto;
+    position: relative;
+    width: 35px;
+}
+
+.headerAccountButtonIcon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerAccountButtonText {
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+}
+
+.headerAccountButtonClickZone {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.headerAccountButtonClickZone:hover {
+    cursor: pointer;
+}
+
+.headerAccountMenu {
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    display: none;
+    right: 0px;
+    position: absolute;
+    width: 350px;
+    text-align: center;
+    top: 100%;
+}
+
+.headerAccountMenuText {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.headerAccountMenuInstructiontext {
+    color: gray;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.headerAccountMenuLine {
+    border-color: whitesmoke;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.headerAccountMenuEmailInput {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 290px;
+}
+
+.headerAccountMenuPasswordInput {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 290px;
+}
+
+.headerAccountMenuRuleText {
+    color: gray;
+    font-size: small;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.headerAccountMenuRuleLink {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+
+.headerAccountMenuLoginButtonButton {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: calc(100% - 25px - 25px);
+    text-transform: uppercase;
+}
+
+.headerAccountMenuLoginButtonButton:hover {    
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.headerAccountMenuRegisterText {
+    color: gray;
+    font-size: small;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.headerAccountMenuRegisterLink {
+    color: black;
+    text-decoration: none;
+}
+
+.headerAccountMenuRecoverPasswordText {
+    color: gray;
+    font-size: small;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.headerAccountMenuRecoverPasswordLink {
+    color: black;
+    text-decoration: none;
+}
+
+.headerShoppingCartButton {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: auto;
+    position: relative;
+    width: 35px;
+}
+
+.headerShoppingCartButtonIcon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerShoppingCartButtonText {
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+}
+
+.headerShoppingCartButtonClickZone {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.headerShoppingCartButtonClickZone:hover {
+    cursor: pointer;
+}
+
+.headerShoppingCartMenu {
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    display: none;
+    right: 0px;
+    position: absolute;
+    width: 450px;
+    text-align: center;
+    top: 100%;
+}
+
+.headerShoppingCartMenuText {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.headerShoppingCartMenuLine {
+    border-color: whitesmoke;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.headerShoppingCartMenuIcon {
+    margin-top: 15px;
+}
+
+.headerShoppingCartMenuNoProductText {
+    color: gray;
+}
+
+.headerShoppingCartMenuTotalPrice {
+    display: flex;
+    margin-top: 15px;
+}
+
+.headerShoppingCartMenuTotalPriceLabelText {
+    color: gray;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.headerShoppingCartMenuTotalPriceNumberText {
+    color: red;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.headerShoppingCartMenuViewShoppingCartButton {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: calc(100% - 25px - 25px);
+    text-transform: uppercase;
+}
+
+.headerShoppingCartMenuViewShoppingCartButton:hover {    
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.mobile_headerNavLinkMenu {
+    background-color: rgba(0, 0, 0, 0.74);
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.mobile_headerNavLinkMenuFlexWrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile_headerNavLinkMenuLink {
+    color: black;
+    display: inline-block;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.mobile_headerNavLinkMenuLink:hover {
+    color: darkcyan;
+}
+
+.mobile_headerNavLinkMenuCloseButton {
+    background-color: rgb(65, 65, 65);;
+    border: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 600;
+    height: 35px;
+    padding: 0px 0px 42px 0px;
+    width: 40px;
+}
+
+.mobile_headerNavLinkMenuCloseButton:hover {
+    cursor: pointer;
+}
+
+.mobile_headerAccountMenu {
+    background-color: white;
+    display: none;
+    height: 100vh;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+}
+
+.mobile_headerAccountMenuFlexWrapper {
+    display: flex;
+}
+
+.mobile_headerAccountMenuCloseButton {
+    border: none;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-size: large;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 25px;
+}
+
+.mobile_headerAccountMenuCloseButton:hover {
+    cursor: pointer;
+}
+
+.mobile_headerAccountMenuText {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.mobile_headerAccountMenuInstructiontext {
+    color: gray;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.mobile_headerAccountMenuLine {
+    border-color: whitesmoke;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.mobile_headerAccountMenuEmailInput {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 290px;
+}
+
+.mobile_headerAccountMenuPasswordInput {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 290px;
+}
+
+.mobile_headerAccountMenuRuleText {
+    color: gray;
+    font-size: small;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.mobile_headerAccountMenuRuleLink {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+
+.mobile_headerAccountMenuLoginButtonButton {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: calc(100% - 25px - 25px);
+    text-transform: uppercase;
+}
+
+.mobile_headerAccountMenuLoginButtonButton:hover {    
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.mobile_headerAccountMenuRegisterText {
+    color: gray;
+    font-size: small;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.mobile_headerAccountMenuRegisterLink {
+    color: black;
+    text-decoration: none;
+}
+
+.mobile_headerAccountMenuRecoverPasswordText {
+    color: gray;
+    font-size: small;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.mobile_headerAccountMenuRecoverPasswordLink {
+    color: black;
+    text-decoration: none;
+}
+
+.mobile_headerShoppingCartMenu {
+    background-color: white;
+    display: none;
+    left: 0px;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+}
+
+.mobile_headerShoppingCartMenuFlexWrapper {
+    display: flex;
+}
+
+.mobile_headerShoppingCartMenuCloseButton {
+    border: none;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-size: large;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 25px;
+}
+
+.mobile_headerShoppingCartMenuCloseButton:hover {
+    cursor: pointer;
+}
+
+.mobile_headerShoppingCartMenuText {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.mobile_headerShoppingCartMenuLine {
+    border-color: whitesmoke;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.mobile_headerShoppingCartMenuIcon {
+    margin-top: 15px;
+}
+
+.mobile_headerShoppingCartMenuNoProductText {
+    color: gray;
+}
+
+.mobile_headerShoppingCartMenuTotalPrice {
+    display: flex;
+    margin-top: 15px;
+}
+
+.mobile_headerShoppingCartMenuTotalPriceLabelText {
+    color: gray;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.mobile_headerShoppingCartMenuTotalPriceNumberText {
+    color: red;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.mobile_headerShoppingCartMenuViewShoppingCartButton {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: calc(100% - 25px - 25px);
+    text-transform: uppercase;
+}
+
+.mobile_headerShoppingCartMenuViewShoppingCartButton:hover {    
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 775px) {
+    .mobile_openHeaderNavLinkMenuButton {
+        display: block;
+    }
+
+    .logoImage {
+        width: 150px;
+    }
+
+    .headerNavLink {
+        display: none;
+    }
+
+    .headerSearchButton {
+        display: none;
+    }
+
+    .mobile_headerSearchButton {
+        display: block;
+    }
+
+    .headerAccountButton {
+        margin-left: 0px;
+    }
+
+    .headerAccountButtonText {
+        display: none;
+    }
+
+    .headerShoppingCartButton {
+        margin-left: 0px;
+    }
+
+    .headerShoppingCartButtonText {
+        display: none;
+    }
+}

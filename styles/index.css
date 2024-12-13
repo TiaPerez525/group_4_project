@@ -1,0 +1,136 @@
+.slider {
+    margin-top: 10px;
+}
+
+.linkBlockWrapper {
+    display: flex;
+    overflow-y: auto;
+}
+
+.linkBlock {
+    border: 1px solid black;
+    border-radius: 5px;   
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.linkBlock:hover {
+    cursor: pointer;
+}
+
+.shopAllLabelBlock {
+    display: flex;
+    height: 100px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.shopAllLabelBlock_background-color {
+    background-color: black;
+}
+
+.shopAllLabelBlockText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.shopAllLabelBlockText_color {
+    color: white;
+}
+
+.shopAllLabelBlockText_text-transform {
+    text-transform: uppercase;
+}
+
+.productDisplayWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    max-width: calc(225px * 5 + 6 * 50px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productDisplay {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 225px;
+}
+
+.productDisplay:hover {
+    cursor: pointer;
+}
+
+.productDisplayTextWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.productDisplayStudioName {
+    color: gray;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.productDisplayStudioName_height {
+    height: 20px;
+}
+
+.productDisplayStudioName_margin {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.productDisplayProductName {
+    height: 40px;
+}
+
+.productDisplayPrice {
+    font-weight: 600;
+}
+
+.seeMoreProductButton {
+    --background-color: black;
+    background-color: var(--background-color);
+    border: 1px solid var(--background-color);
+    display: block;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px 25px 10px 25px;
+}
+
+.seeMoreProductButton:hover {
+    cursor: pointer;
+    --background-color: darkcyan;
+    background-color: var(--background-color);
+    border-color: var(--background-color);
+}
+
+.customerSupportBanner {
+    margin-top: 25px;
+    width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .shopAllLabelBlockText {
+        font-size: 35px;
+    }
+}
