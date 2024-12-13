@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View product</title>
+    <link rel="stylesheet" href="../styles/view-product.css">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script defer src="../components/header.js"></script>
+    <script defer src="../components/footer.js"></script>
+    <script defer src="../scripts/url-changer.js"></script>
+    <script defer src="../scripts/header.js"></script>
+    <script defer src="../scripts/data-base.js"></script>
+    <script defer src="../scripts/view-product.js"></script>
+</head>
+<body>
+    <header-component></header-component>
+    <div class="flexWrapper">
+        <div class="productImageWrapper">
+            <img
+                class="productImage"
+                src="" 
+                alt=""
+                width="500px">
+        </div>
+        <div class="detailsAndFunctions">
+            <div class="productName">
+                Product name
+            </div>
+            <div class="studioNameWrapper">
+                Thương hiệu: <div class="studioName studioName_display">Studio name</div>
+            </div>
+            <div class="price">
+                0đ
+            </div>
+            <button class="addToCartButton" onclick="addToCartButton_onclick()">
+                Thêm vào giỏ
+            </button>
+            <div class="informationBoxWrapper"> 
+                <div 
+                    class="
+                        leftInformationBox
+                        leftInformationBox_font-weight">
+                    <div class="informationBoxText">
+                        NZ Toys chuyên cung cấp mọi loại mô mình chính hãng trên thế giới
+                    </div>
+                </div>
+                <div 
+                    class="
+                        rightInformationBox
+                        leftInformationBox">
+                    <div class="informationBoxText">
+                        VUI LÒNG NHẮN TIN ĐỂ ĐƯỢC HỖ TRỢ NHANH NHẤT.
+                    </div>
+                </div>
+            </div>
+            <div 
+                class="
+                    productInformationLabelText
+                    productInformationLabelText_margin-top
+                    productInformationLabelText_text-transform
+                    leftInformationBox_font-weight">
+                Thông tin sản phẩm
+            </div>
+            <div 
+                class="
+                    preOrderText
+                    productInformationLabelText_margin-top
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Pre-Order
+            </div> <div class="studioName_display"> (Hàng đặt trước)</div>
+            <br>
+            <div 
+                class="
+                    productInformationText
+                    productInformationText_marginTop
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Thông tin sản phẩm:
+            </div> 
+            <div class="productInformationName studioName_display"> 
+                productInformationName
+            </div>
+            <br>
+            <div 
+                class="
+                    productInformationText_marginTop
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Hãng
+            </div> 
+            <div class="studioName_display"> 
+                (Studio): 
+                <div class="productInformationStudioName studioName_display">studioName</div>
+            </div>
+            <br>
+            <div 
+                class="
+                    productInformationText_marginTop
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Kích thước
+            </div> 
+            <div class="studioName_display"> 
+                (Scale): <div class="productInformationScale studioName_display">scale</div>
+            </div>
+            <br>
+            <div 
+                class="
+                    productInformationText_marginTop
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Giá
+            </div> 
+            <div class="studioName_display"> 
+                (Price): <div class="productInformationPrice studioName_display">price</div>
+            </div>
+            <br>
+            <div 
+                class="
+                    productInformationText_marginTop
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Cọc
+            </div> 
+            <div class="studioName_display"> 
+                (Deposit): <div class="productInformationDeposit studioName_display">deposit</div>
+            </div>
+            <br>
+            <div 
+                class="
+                    productInformationText_marginTop
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Phát hành
+            </div> 
+            <div class="studioName_display"> 
+                (Release Date): 
+                <div 
+                    class="
+                        productInformationReleaseDate 
+                        studioName_display"> 
+                    productInformationReleaseDate
+                </div>
+            </div>
+            <br>
+            <div 
+                class="
+                    productInformationText_marginTop 
+                    leftInformationBox_font-weight 
+                    studioName_display">
+                Note
+            </div><div class="studioName_display">: 
+                <div 
+                    class="
+                        productInformationNote 
+                        studioName_display">
+                    productInformationNote
+                </div>
+            </div>
+            <br> Đã bao gồm phí vận chuyển đến tận tay khách hàng nội thành Hồ Chí Minh 🛵
+            <hr class="ruler productInformationLabelText_margin-top" width="100%">
+            <div 
+                class="
+                    shipServiceLabelText
+                    productInformationLabelText
+                    productInformationLabelText_margin-top
+                    productInformationLabelText_text-transform
+                    leftInformationBox_font-weight">
+                Dịch vụ giao hàng
+            </div>
+            <div class="shipServiceBox">
+                <img class="shipServiceIcon shipServiceIcon_margin" src="../images/shield-with-star-icon.png" alt="" width="20px" height="20px">
+                <div class="shipServiceBoxText studioName_display shipServiceIcon_margin">
+                    Cam kết 100% chính hãng
+                </div>
+            </div>
+            <div class="shipServiceBox">
+                <img class="studioName_display shipServiceIcon_margin" src="../images/shield-with-star-icon.png" alt="" width="20px" height="20px">
+                <div class="shipServiceBoxText studioName_display shipServiceIcon_margin">
+                    Giao hàng dự kiến: <br>
+                    <div class="leftInformationBox_font-weight studioName_display">Thứ 2 - Thứ 7 từ 9h00 - 22h00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer-component></footer-component>
+</body>
+</html>
