@@ -1,0 +1,131 @@
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.footerTextWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.footerTextTitle {
+    
+}
+
+.footerTextTitle_font-weight {
+    font-weight: 600;
+}
+
+.footerLabelText {
+    display: inline-block;
+}
+
+ul {
+    margin-top: 0px;
+    list-style-type: disc;
+}
+
+.ul_hover:hover {
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.li {
+
+}
+
+.li_margin-top {
+    margin-top: 10px;
+}
+
+.footerContactInformations {
+    display: flex;
+}
+
+.footerContactInformationsImage {
+    
+}
+
+.footerContactInformationsTexts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerPhoneNumber {
+    font-size: x-large;
+}
+
+.footerPhoneNumber_margin {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footerEmail {
+    text-decoration: underline;
+}
+
+.footerNavFacebook {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 5px;
+    width: 30px;
+    transition: .2s ease;
+}
+
+.footerNavFacebook:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px white;
+}
+
+.footerNavFacebook_background-image {
+    background-image: url(../images/footer_nav/facebook-icon.png);
+}
+
+.footerNavFacebook_background-size {
+    background-size: 100%;
+}
+
+.footerNavTwitter {
+    background-image: url(../images/footer_nav/twitter-icon.jpg);
+}
+
+.footerNavInstagram {
+    background-image: url(../images/footer_nav/instagram-icon.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+.footerNavInstagram_background-position {
+    background-position: center;
+}
+
+.footerNavGoogle {
+    background-image: url(../images/footer_nav/google-icon.jpg);
+}
+
+.footerNavYoutube {
+    background-image: url(../images/footer_nav/youtube-icon.jpg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 1050px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footerTextWrapper {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

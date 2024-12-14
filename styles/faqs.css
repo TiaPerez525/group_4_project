@@ -1,0 +1,30 @@
+.textWrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.mainLabel {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.mainLabel1 {
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.contentText {
+    margin-top: 15px;
+}
+
+.link {
+    color: rgb(0, 189, 164);
+    text-decoration: none;
+}
+
+.boldText {
+    display: inline;
+    font-weight: 600;
+}

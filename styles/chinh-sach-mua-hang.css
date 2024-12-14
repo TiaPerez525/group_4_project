@@ -1,0 +1,36 @@
+:root {
+    --mainLabel1_color: rgb(230, 0, 0);
+}
+
+.textWrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.mainLabel {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.mainLabel1 {
+    color: var(--mainLabel1_color);
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.textUl {
+    margin-top: 15px;
+    list-style-type: decimal;
+}
+
+.blueText {
+    color: rgb(0, 189, 164);
+    display: inline;
+}
+
+.redText {
+    color: var(--mainLabel1_color);
+    display: inline;
+}
