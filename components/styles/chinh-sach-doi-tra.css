@@ -1,0 +1,88 @@
+:root {
+    --mainLabel1_color: rgb(230, 0, 0);
+    --mainLabel_font-weight: 600;
+    --mainLabel_margin-top: 25px;
+    --conditionText_margin-top: 15px;
+    --blueText_color: rgb(0, 189, 164);
+}
+
+.div0 {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.textWrapper {
+    
+}
+
+.mainLabel {
+    font-size: xx-large;
+    font-weight: var(--mainLabel_font-weight);
+    margin-top: var(--mainLabel_margin-top);
+}
+
+.mainTitle {
+    font-size: x-large;
+    font-weight: var(--mainLabel_font-weight);
+    margin-top: var(--mainLabel_margin-top);
+    text-align: center;
+}
+
+.redText {
+    color: var(--mainLabel1_color);
+    display: inline;
+}
+
+.conditionText {
+    font-weight: var(--mainLabel_font-weight);
+    margin-top: var(--conditionText_margin-top);
+    text-align: center;
+}
+
+.blueText {
+    color: var(--blueText_color);
+    display: inline;
+}
+
+.mainLabel1 {
+    color: var(--mainLabel1_color);
+    font-size: x-large;
+    font-weight: var(--mainLabel_font-weight);
+    margin-top: 20px;
+}
+
+.firstTextLine {
+    margin-top: var(--conditionText_margin-top);
+}
+
+.reguardText {
+    color: var(--blueText_color);
+    font-size: x-large;
+    font-weight: var(--mainLabel_font-weight);
+    margin-top: var(--conditionText_margin-top);
+    text-align: center;
+}
+
+.div0_div0 {
+    margin-left: 25px;
+    min-width: 200px;
+}
+
+.div0_div0_div0 {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.div0_div0_a0 {
+    display: block;
+    text-decoration: none;
+    color: black;
+
+    transition: color .2s;
+}
+
+.div0_div0_a0:hover {
+    color: darkcyan;
+}

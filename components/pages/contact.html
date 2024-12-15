@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <script defer src="../components/header.js"></script>
+    <script defer src="../components/footer.js"></script>
+    <script defer src="../scripts/url-changer.js"></script>
+    <script defer src="../scripts/header.js"></script>
+    <script defer src="../scripts/footer.js"></script>
+</head>
+<body>
+    <header-component></header-component>
+    <img class="mapImage" src="../images/map.png" alt="" width="500px">
+    <div class="flexWrapper">
+        <div class="contactInformation">
+            <div class="contactInformationLabel">Thông tin liên hệ</div>
+            <div class="contactInformationAddress">
+                <div class="contactInformationAddressIcon">
+                    <img class="contactInformationAddressIconImage" src="../images/location-icon.png" alt="" width="15px">
+                </div>
+                <div class="contactInformationAddressFlexWrapper">
+                    <div class="contactInformationAddressLabel">Địa chỉ</div>
+                    <div class="contactInformationAddressText">Số 2/104 Nguyễn Gia Thiều, phường Võ Thị Sáu, Quận 3, Thành Phố Hồ Chí Minh</div>
+                </div>
+            </div>
+            <div class="contactInformationEmail">
+                <div class="contactInformationEmailIcon">
+                    <img class="contactInformationEmailIconImage" src="../images/email-icon.webp" alt="" width="15px">
+                </div>
+                <div class="contactInformationEmailFlexWrapper">
+                    <div class="contactInformationEmailLabel">Email</div>
+                    <div class="contactInformationEmailText">nztoys2204@gmail.com</div>
+                </div>
+            </div>
+            <div class="contactInformationPhone">
+                <div class="contactInformationPhoneIcon">
+                    <img class="contactInformationPhoneIconImage" src="../images/phone-call-icon-white-background.png" alt="" width="15px">
+                </div>
+                <div class="contactInformationPhoneFlexWrapper">
+                    <div class="contactInformationPhoneLabel">Điện thoại</div>
+                    <div class="contactInformationPhoneText">0767762204</div>
+                </div>
+            </div>
+            <div class="contactInformationTime">
+                <div class="contactInformationTimeIcon">
+                    <img class="contactInformationTimeIconImage" src="../images/email-icon.webp" alt="" width="15px">
+                </div>
+                <div class="contactInformationTimeFlexWrapper">
+                    <div class="contactInformationTimeLabel">Thời gian làm việc</div>
+                    <div class="contactInformationTimeText">12PM - 9PM</div>
+                </div>
+            </div>
+        </div>
+        <form class="contactForm" action="">
+            <div class="contactFormLabel">Gửi thắc mắc cho chúng tôi</div>
+            <div class="contactFormInstructionText">Nếu bạn có thắc mắc gì, có thể gửi yêu cầu cho chúng tôi, và chúng tôi sẽ liên lạc lại với bạn sớm nhất có thể .</div>
+            <input class="contactFormNameInput" type="text" placeholder="Tên của bạn">
+            <div class="contactFormWrapper">
+                <input class="contactFormEmailInput" type="email" placeholder="Email của bạn">
+                <input class="contactFormPhoneInput" type="text" placeholder="Số điện thoại của bạn">
+            </div>
+            <textarea class="contactFormContextTextArea" name="contactFormContext" id="" rows="4" cols="50" placeholder="Nội dung"></textarea>
+            <div class="contactFormRuleText">Trang web này được bảo vệ bởi reCAPTCHA cũng như <a class="contactFormRuleTextLinkPP" href="">Chính sách quyền riêng tư</a> và <a class="contactFormRuleTextLinkTOS" href=""> Điều khoản dịch vụ của Google</a>.</div>
+            <button class="contactFormSendButton">Gửi cho chúng tôi</button>
+        </form>
+    </div>
+    <footer-component></footer-component>
+</body>
+</html>

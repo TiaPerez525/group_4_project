@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/register.css">
+    <script defer src="../components/header.js"></script>
+    <script defer src="../components/footer.js"></script>
+    <script defer src="../scripts/url-changer.js"></script>
+    <script defer src="../scripts/header.js"></script>
+    <script defer src="../scripts/footer.js"></script>
+    <script defer src="../scripts/register.js"></script>
+</head>
+<body onresize="body_onresize()">
+    <header-component></header-component>
+    <div class="div">Tạo tài khoản</div>
+    <div class="div0"></div>
+    <div class="div1">
+        <input type="text" class="div1_input" placeholder="Họ">
+        <input type="text" class="div1_input div1_input--margin-top" placeholder="Tên">
+        <div class="div1_div">
+            <input id="male-check-box" type="checkbox" class="div1_div_input" onclick="maleCheckBox_onchange(this)">
+            <label class="div1_div_label" for="male-check-box">Nam</label>
+            <input id="female-check-box" type="checkbox" class="div1_div_input" onclick="femaleCheckBox_onchange(this)">
+            <label class="div1_div_label" for="female-check-box">Nữ</label>
+        </div>
+        <input type="text" class="div1_input div1_input--margin-top" placeholder="dd/mm/yyyy">
+        <input type="email" class="div1_input div1_input--margin-top" placeholder="Email">
+        <input type="text" class="div1_input div1_input--margin-top" placeholder="Mật khẩu">
+        <div class="div1_text">Trang web này được bảo vệ bởi reCAPTCHA cũng như <a class="div1_text_text" href="">Chính sách quyền riêng tư</a> và <a class="div1_text_text" href="">Điều khoản dịch vụ của Google</a>.</div>
+        <button class="div1_button" onclick="registerButton_onclick()">ĐĂNG KÝ</button>
+    </div>
+    <footer-component></footer-component>
+</body>
+</html>
