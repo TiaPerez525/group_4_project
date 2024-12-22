@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View cart</title>
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/view-cart.css">
+    <script defer src="../components/header.js"></script>
+    <script defer src="../components/footer.js"></script>
+    <script defer src="../scripts/url-changer.js"></script>
+    <script defer src="../scripts/header.js"></script>
+    <script defer src="../scripts/account.js"></script>
+    <script defer src="../scripts/data-base.js"></script>
+    <script defer src="../scripts/footer.js"></script>
+    <script defer src="../scripts/view-cart.js"></script>
+</head>
+<body onresize="body_onresize()">
+    <header-component></header-component>
+    <div class="div0">
+        <div class="div0_div0">
+            <div class="div0_div0_div0">Giỏ hàng của bạn</div>
+            <hr class="div0_div0_hr0" width="auto">
+            <div class="div0_div0_div1">Giỏ hàng của bạn đang trống</div>
+        </div>
+        <div class="div0_div1">
+            <div class="div0_div1_div0">Thông tin đơn hàng</div>
+            <div class="div0_div1_div1">
+                <div class="div0_div1_div1_div0">Tổng tiền:</div>
+                <div class="div0_div1_div1_div1">0đ</div>
+            </div>
+            <hr class="div0_div1_hr0" width="auto">
+            <ul class="div0_div1_ul0">
+                <li class="div0_div1_ul0_li0">Phí vận chuyển sẽ được tính ở trang thanh toán.</li>
+                <li class="div0_div1_ul0_li0">Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.</li>
+            </ul>
+            <button class="div0_div1_button">Thanh toán</button>
+        </div>
+    </div>
+    <footer-component></footer-component>
+</body>
+</html>
