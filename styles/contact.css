@@ -1,0 +1,274 @@
+:root {
+    --mapImage_margin-left: 25px;
+    --mapImage_margin-top: 25px;
+    --contactInformationAddress_margin-top: 20px;
+    --contactInformationLabel_font-weight: 600;
+    --contactInformationAddressIcon_height: 25px;
+    --contactInformationAddressIcon_border: 1px solid gray;
+    --contactInformationAddressIcon_width: 25px;
+    --contactInformationAddressFlexWrapper_margin-left: 10px;
+    --contactInformationAddresstext_margin-top: 5px;
+    --contactFormNameInput_padding: 10px 10px 10px 10px;
+    --contactFormEmailInput_width: 100%;
+    --contactFormNameInput_margin-top: 10px;
+    --contactFormRuleTextLinkPP_color: rgb(1, 185, 197);
+}
+
+.mapImage {
+    margin-left: var(--mapImage_margin-left);
+    margin-top: var(--mapImage_margin-top);
+}
+
+.flexWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: var(--mapImage_margin-left);
+    margin-right: 25px;
+}
+
+.contactInformation {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--mapImage_margin-top);
+    width: 40%;
+}
+
+.contactInformationLabel {
+    font-size: x-large;
+    font-weight: var(--contactInformationLabel_font-weight);
+}
+
+.contactInformationAddress {
+    display: flex;
+    margin-top: var(--contactInformationAddress_margin-top);
+}
+
+.contactInformationAddressIcon {
+    border: var(--contactInformationAddressIcon_border);
+    border-radius: 50%;
+    display: flex;
+    height: var(--contactInformationAddressIcon_height);
+    width: var(--contactInformationAddressIcon_width);
+    min-width: var(--contactInformationAddressIcon_width);
+}
+
+.contactInformationAddressIconImage {
+    margin: auto auto auto auto;
+}
+
+.contactInformationAddressFlexWrapper {
+    margin-left: var(--contactInformationAddressFlexWrapper_margin-left);
+}
+
+.contactInformationAddressLabel {
+    font-weight: var(--contactInformationLabel_font-weight);
+}
+
+.contactInformationAddresstext {
+    margin-top: var(--contactInformationAddresstext_margin-top);
+}
+
+.contactInformationEmail {
+    display: flex;
+    margin-top: var(--contactInformationAddress_margin-top);
+}
+
+.contactInformationEmailIcon {
+    border: var(--contactInformationAddressIcon_border);
+    border-radius: 50%;
+    display: flex;
+    height: var(--contactInformationAddressIcon_height);
+    width: var(--contactInformationAddressIcon_width);
+}
+
+.contactInformationEmailIconImage {
+    margin: auto auto auto auto;
+}
+
+.contactInformationEmailFlexWrapper {
+    margin-left: var(--contactInformationAddressFlexWrapper_margin-left);
+}
+
+.contactInformationEmailLabel {
+    font-weight: var(--contactInformationLabel_font-weight);
+}
+
+.contactInformationEmailtext {
+    margin-top: var(--contactInformationAddresstext_margin-top);
+}
+
+.contactInformationPhone {
+    display: flex;
+    margin-top: var(--contactInformationAddress_margin-top);
+}
+
+.contactInformationPhoneIcon {
+    border: var(--contactInformationAddressIcon_border);
+    border-radius: 50%;
+    display: flex;
+    height: var(--contactInformationAddressIcon_height);
+    width: var(--contactInformationAddressIcon_width);
+}
+
+.contactInformationPhoneIconImage {
+    margin: auto auto auto auto;
+}
+
+.contactInformationPhoneFlexWrapper {
+    margin-left: var(--contactInformationAddressFlexWrapper_margin-left);
+}
+
+.contactInformationPhoneLabel {
+    font-weight: var(--contactInformationLabel_font-weight);
+}
+
+.contactInformationPhoneText {
+    margin-top: var(--contactInformationAddresstext_margin-top);
+}
+
+.contactInformationTime {
+    display: flex;
+    margin-top: var(--contactInformationAddress_margin-top);
+}
+
+.contactInformationTimeIcon {
+    border: var(--contactInformationAddressIcon_border);
+    border-radius: 50%;
+    display: flex;
+    height: var(--contactInformationAddressIcon_height);
+    width: var(--contactInformationAddressIcon_width);
+}
+
+.contactInformationTimeIconImage {
+    margin: auto auto auto auto;
+}
+
+.contactInformationTimeFlexWrapper {
+    margin-left: var(--contactInformationAddressFlexWrapper_margin-left);
+}
+
+.contactInformationTimeLabel {
+    font-weight: var(--contactInformationLabel_font-weight);
+}
+
+.contactInformationTimeText {
+    margin-top: var(--contactInformationAddresstext_margin-top);
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: var(--mapImage_margin-top);
+    width: 55%;
+}
+
+.contactFormLabel {
+    font-size: x-large;
+    font-weight: var(--contactInformationLabel_font-weight);
+}
+
+.contactFormInstructionText {
+    margin-top: var(--contactInformationAddress_margin-top);
+}
+
+.contactFormNameInput {
+    margin-top: var(--contactFormNameInput_margin-top);
+    padding: var(--contactFormNameInput_padding);
+}
+
+.contactFormWrapper {
+    display: flex;
+}
+
+.contactFormEmailInput {
+    margin-top: var(--contactFormNameInput_margin-top);
+    padding: var(--contactFormNameInput_padding);
+    width: var(--contactFormEmailInput_width);
+}
+
+.contactFormPhoneInput {
+    margin-left: 10px;
+    margin-top: var(--contactFormNameInput_margin-top);
+    padding: var(--contactFormNameInput_padding);
+    width: var(--contactFormEmailInput_width);
+}
+
+.contactFormContextTextArea {
+    margin-top: var(--contactFormNameInput_margin-top);
+    padding: var(--contactFormNameInput_padding);
+}
+
+.contactFormRuleText {
+    margin-top: var(--contactFormNameInput_margin-top);
+    font-size: smaller;
+}
+
+.contactFormRuleTextLinkPP {   
+    color: var(--contactFormRuleTextLinkPP_color);
+    text-decoration: none;
+}
+
+.contactFormRuleTextLinkTOS {
+    color: var(--contactFormRuleTextLinkPP_color);
+    text-decoration: none;
+}
+
+.contactFormSendButton {
+    background-color: black;
+    border: var(--contactInformationAddressIcon_border);
+    color: white;
+    margin-top: 15px;
+    padding: 15px 25px 15px 25px;
+    text-transform: uppercase;
+    width: 250px;
+
+    transition: all .2s;
+}
+
+.contactFormSendButton:hover {
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    color: white;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 768px) {
+    .contactInformation {
+        width: auto;
+    }
+
+    .contactForm {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mapImage {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactForm {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contactForm {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contactForm {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .mapImage {
+        width: 250px;
+    }
+}
